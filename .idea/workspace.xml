@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f889253-7ed4-43e3-8805-5356694ac4e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/test/NewPasteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/NewPastePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/page/NewPastePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/NewPasteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/driverFactory/WebDriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.NewPaste.executor": "Run",
+    "Application.NewPastePage.executor": "Debug",
+    "JUnit.NewPasteTest.createAndVerifyNewPaste.executor": "Debug",
     "JUnit.NewPasteTest.createNewPaste.executor": "Run",
     "JUnit.NewPasteTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -60,13 +64,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.NewPasteTest.createNewPaste">
+  <component name="RunManager" selected="JUnit.NewPasteTest.createAndVerifyNewPaste">
     <configuration name="NewPastePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.NewPastePage" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.page.NewPastePage" />
       <module name="ta_training-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.*" />
+          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,13 +82,29 @@
       <module name="ta_training-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.*" />
+          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.NewPasteTest" />
+      <option name="PACKAGE_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.test.NewPasteTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewPasteTest.createAndVerifyNewPaste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ta_training-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.test.NewPasteTest" />
+      <option name="METHOD_NAME" value="createAndVerifyNewPaste" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,12 +113,12 @@
       <module name="ta_training-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.*" />
+          <option name="PATTERN" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.NewPasteTest" />
+      <option name="PACKAGE_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.test.NewPasteTest" />
       <option name="METHOD_NAME" value="createNewPaste" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -107,9 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewPasteTest.createAndVerifyNewPaste" />
         <item itemvalue="JUnit.NewPasteTest.createNewPaste" />
-        <item itemvalue="JUnit.NewPasteTest" />
         <item itemvalue="Application.NewPastePage" />
+        <item itemvalue="JUnit.NewPasteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -121,11 +142,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728902930296</updated>
-      <workItem from="1728902931909" duration="5411000" />
+      <workItem from="1728902931909" duration="17460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/epam/training/ta_trainingjava/student_roman_svyshch/practice1/test/NewPasteTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ta_training_java$NewPasteTest_createNewPaste.ic" NAME="NewPasteTest.createNewPaste Coverage Results" MODIFIED="1729069271437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.epam.training.ta_trainingjava.student_roman_svyshch.practice1.page.*</FILTER>
+    </SUITE>
   </component>
 </project>
